@@ -10,7 +10,7 @@
 
 ## Visibility
 
-- [ ] Visibility is a module. No visibility means the outer module. `pub` means the DiveScript's root module that contains modules named by crates. `pub(qns)` means the module `qns`.
+- [ ] Visibility is public or a module. The default visibility is the outer module. `pub(qns)` means the module `qns`.
 - [ ] Although structs and enums use the same AST, the default visibility for their struct fields and tuple fields is determined differently. For enums, the visibility of content inside is the same as the enum's one.
 
 ## Modules
