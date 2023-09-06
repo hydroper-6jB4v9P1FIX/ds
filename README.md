@@ -1,6 +1,6 @@
 # DiveScript
 
-Lightweight, flexible Rust dialect that compiles to its own bytecode.
+Flexible Rust dialect that compiles to WebAssembly.
 
 > Work-in-progress
 
@@ -13,6 +13,8 @@ Getting started:
 
 ```sh
 divescript new hello-world
+
+cd hello-world
 divescript build
 divescript run
 ```
