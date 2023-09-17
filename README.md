@@ -9,12 +9,11 @@ Getting started:
 - [Overview](https://divescript.github.io/overview)
 - [Reference](https://divescript.github.io/reference)
 
-## Terminal usage
+## Command line usage
 
 ```sh
-divescript new hello-world
+divescript new basic-program
 
 cd hello-world
-divescript build
 divescript run
 ```
